@@ -1,0 +1,149 @@
+        -----------------------------------------------------HTML------------------------------------------------
+
+Imagenes
+
+ 
+gif- losses - 256 colores
+png 8 - losses - 256 colores
+png 24 - lossles - colores ilimitados
+jpg - lossy - millones de colores
+svg - vector/lossless - colores ilimitados
+
+Videos
+
+src - donde esta el destino del video
+source - sirve para el formato de video
+preload auto - para que el video cargue antes en el navegador
+a - Para anclear un archivo o url o video de youtube etc
+
+Formularios
+
+form - Abres un formulario
+select
+option
+datalist
+
+ 
+input - Abres un tipo de texto
+  
+ Tipos de input
+  
+  text
+  password
+  date
+  month
+  week
+  time
+  email
+  datetime-local
+ 
+
+submit
+buttom     
+plaiceholder - Descripcion del texto
+label 
+required
+autocomplete
+span - texto antes del input
+
+
+                  ---------------------- ------------------------------CSS----------------------------------------------
+
+
+list-style:none;
+Padding
+margin
+border
+background
+color
+widht
+height
+order
+
+SELECTORES
+
+class .
+id    #
+
+Pseudoclase
+
+:hover - cambia el estilo cuando pasa el cursor por encima
+:active - se activa cuando el usario le da click 
+
+ESPECIFICIDAD
+
+!important
+inline styles
+#id
+.class
+tag
+
+
+ MEDIDAS
+PX
+REM 
+EM
+WIDH 
+HEIGHT
+%
+widhtvw
+heightvh
+minwidht
+maxwidht
+62.5 10 px = 1rem
+
+POSITION
+
+relative
+absolute
+fixed
+stick
+
+Display
+ flex
+  
+  flex direction 
+   
+   column
+   row
+   reverse
+  
+  flex wrap
+   wrap
+   wrap reverse
+ 
+  justify-content
+  
+  center
+  flex-start
+  flex-end
+  space-around
+  space-evenly
+  
+  flex-grow 
+  flex-basis
+
+Variables
+
+:root
+ 
+ --primary-color
+ --secundary-color
+ --header--size 
+ --font
+ var(nombre de la variable)
+  
+           -------------------------------RESPONSIVE DESING--------------------------------------------------
+
+ 
+ @media(min-widht:500px)
+ {
+ adentro de las llevas ira el codigo para ese tamaño de layout
+  }
+ 
+mydevice.io
+
+picture
+source
+
+https://platzi.com/clases/examen/resultados/2008/

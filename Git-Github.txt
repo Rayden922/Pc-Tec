@@ -1,0 +1,72 @@
+Comandos
+
+pwd - te permite ver en que direccion estas
+git add. - Añade todo el contenido de la carpeta
+git add nombre.txt - añade un archivo en especifico
+git status - te permite ver el contenido actual de tu proyecto
+git commit -m "nombre del cambio" - lo guardas definitivamente en tu repositorio
+touch - archivo vacio
+cat - ve el contenido del archivo
+git init
+git rm --cached
+git config
+git config --list
+git config --list --show-origin
+git config -l
+
+git config --global user.email "Nombre@gmail.com"
+git config --global user.name "Nombre"
+git show - te permite ver los cambios que hiciste 
+git log - ves todos los cambios que has hecho
+
+git diff - la actualizacion actual con la pasada
+git chekout (codigo) - ver la version de ese commit
+git chekout master - vuelve al commit master
+git reset (codigo) - volver a esa version
+
+--hard
+--soft
+
+ 
+git show - para ver en donde estoy trabajando y ver el cambio que hice anteriormente
+git branch (nombre de la rama)
+git checkout (nombre de la rama donde estaras trabajando)
+git checkout master - para volver a la rama principal de tu proyecto
+
+git merge (nombre de la rama que vas a fucionar a master)
+
+                              
+                                      GITHUB
+
+git remote add origin (la url del servidor)
+git remote -v
+
+git push origin master (guardar en desde el master al servidor remoto)
+git pull origin master (traer del el archivo del servidor remoto al master)
+ git pull origin master --allow-unrelated-histories
+git remote set-url origin (la url del ssh)
+  
+  SSH
+
+ ssh-keygen -t rsa -b 4096 -C "xxstorytearsxx@gmail.com - LLave privada
+eval $(ssh-agent -s) - encender la llave ssh
+ssh-add ~/.ssh/id_rsa
+
+git remote set-url origin (la url del ssh)
+git pull origin master
+
+
+
+git log --all - todo la historia de tu proyecto  
+
+git log --all --graph --decorate --oneline
+git tag
+git tag -d nombre del archivo que borraras - borra el tag
+
+git clone (el url del repositorio remoto) - esto clona tu repositorio a otro escritorio donde no esta tu proyecto
+
+
+git rebase (nombre de la rama de donde te quieres traer la informacion) - trae la informacion de una rama a otra
+
+git clean --dry-run
+
