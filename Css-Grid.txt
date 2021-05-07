@@ -1,7 +1,19 @@
  CSS GRID
 
- Padre
+  Padre
 
 Lines
 Track
-Area 
+Area
+
+Gutters
+Grid axis
+
+  Hijos 
+
+cells
+
+Grid row -linea vertical del primero al ultimo 
+Grid column
+Grid axis
+ 
