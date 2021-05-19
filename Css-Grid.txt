@@ -16,4 +16,11 @@ cells
 Grid row -linea vertical del primero al ultimo 
 Grid column
 Grid axis
- 
+
+grid-template-columns ( los pixeles de los recuadros en columnas de arriba hacia abajo)
+grid-template-rows (los pixeles de los recuadros en filas de izquierda a derecha)
+
+grid-template-columns: repeat(5, columnas 20px los pixeles de los 5 recuadros de las columnas)
+gird-template-rows:  repeat(5, filas 20px los pixeles de los 5 recuadros de las filas)
+
+   
